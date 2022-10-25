@@ -13,6 +13,7 @@ public class GoogleSearchPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
+
     // We can locate the web elements by using @FindBy annotation
 
     @FindBy(name = "q")

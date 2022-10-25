@@ -29,6 +29,7 @@ public class DataTables_StepDefinitions {
     public void user_is_on_the_dropdowns_page_of_practice_tool() {
         Driver.getDriver().get("https://practice.cydeo.com/dropdown");
 
+
     }
 
 

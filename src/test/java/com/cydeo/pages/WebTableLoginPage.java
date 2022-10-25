@@ -35,6 +35,7 @@ public class WebTableLoginPage {
       this.inputPassword.sendKeys("Tester");
       this.loginButton.click();
 
+
    }
 
    /**

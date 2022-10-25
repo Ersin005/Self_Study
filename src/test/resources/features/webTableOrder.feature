@@ -48,6 +48,7 @@ Feature: Web table user order feature
       | MoneyCog    | 5        | Barbara McClintock | London Str. | London | England | 50505   | visa     | 111122221213334 | 12/24      | Barbara McClintock |
       | MoneyCog    | 6        | Ada Lovelace       | London Str. | London | England | 50505   | visa     | 111122221213334 | 12/24      | Ada Lovelace       |
 
+
     @maleScientists
     Examples: Famous male scientists
       | productType | quantity | customerName          | street      | city   | country | zipCode | cardType | cardNumber      | expiryDate | expectedName          |

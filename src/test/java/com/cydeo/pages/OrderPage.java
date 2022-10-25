@@ -37,6 +37,7 @@ public class OrderPage extends BasePage {
     @FindBy(name = "zip")
     public WebElement inputZip;
 
+
     // card is a general name for all card types and because
     // they are radio buttons we can use the general name cards to locate all of them.
     // Return type is List<WebElement>

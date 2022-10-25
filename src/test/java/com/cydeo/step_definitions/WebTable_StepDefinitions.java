@@ -57,6 +57,7 @@ public class WebTable_StepDefinitions {
        // webTableLoginPage.inputPassword.sendKeys(credentials.get("password"));
       //  webTableLoginPage.loginButton.click();
 
+
         webTableLoginPage.login(credentials.get("username"),credentials.get("password"));
 
     }

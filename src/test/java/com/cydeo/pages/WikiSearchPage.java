@@ -11,6 +11,7 @@ public class WikiSearchPage {
 
         PageFactory.initElements(Driver.getDriver(), this);
 
+
     }
 
     @FindBy(id = "searchInput")

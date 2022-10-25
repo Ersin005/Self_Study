@@ -15,6 +15,7 @@ public class GoogleStepDefinitions {
     public void user_types_and_clicks_enter(String searchKeyword) {
         googleSearchPage.searchBox.sendKeys(searchKeyword,Keys.ENTER);
 
+
     }
     @Then("User sees {string} in the google title")
     public void user_sees_in_the_google_title(String string) {

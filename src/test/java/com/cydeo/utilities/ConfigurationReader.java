@@ -29,6 +29,7 @@ public class ConfigurationReader {
 
     }
 
+
     public static String getProperty(String keyword){// We use public access modifier to reach from every package,
         // static specifier to call it by the class name, and return type String to get the value.
         return  properties.getProperty(keyword);

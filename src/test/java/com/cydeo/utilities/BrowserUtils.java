@@ -67,7 +67,6 @@ Method info:
         Assert.assertTrue(actualInTitle.contains(expectedInTitle));
     }
 
-
     /*
     This method accepts String and gets expectedTitle and sserts if it's true
      */

@@ -16,6 +16,7 @@ public class VyTrackLoginPage {
     @FindBy(id = "prependedInput2")
     public WebElement passwordField;
 
+
     @FindBy(id = "_submit")
     public WebElement loginBtn;
 }

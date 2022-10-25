@@ -28,6 +28,7 @@ public class VyTrackLoginStep {
     public void user_is_on_the_login_page() {
         Driver.getDriver().get(ConfigurationReader.getProperty("vyTrackUrl"));
 
+
     }
 
     @When("user enters driver credentials")

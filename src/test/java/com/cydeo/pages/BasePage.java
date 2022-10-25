@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BasePage {
 
+
     /*
     In this class we will store WebElements common to all pages
      */

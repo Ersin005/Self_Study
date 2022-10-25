@@ -42,5 +42,6 @@ public class Wiki_StepDefinitions {
 
         Assert.assertTrue(wikiSearchPage.imageHeader.getText().equals(string));
 
+
     }
 }
